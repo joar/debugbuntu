@@ -4,4 +4,5 @@ RUN apt-get update
 RUN apt-get install -y \
     curl \
     mtr-tiny \
-    iputils-ping
+    iputils-ping \
+    kafkacat
